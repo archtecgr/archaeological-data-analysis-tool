@@ -31,12 +31,19 @@ st.markdown("""
         margin-top: 1rem;
     }
     .info-box {
-        background-color: #F5F5DC;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-left: 4px solid #8B4513;
-        margin: 1rem 0;
-    }
+    background-color: #F5F5DC;
+    color: #2C241F !important;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-left: 4px solid #8B4513;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+.info-box p {
+    color: #2C241F !important;
+    margin: 0;
+}
     .success-box {
         background-color: #D4EDDA;
         padding: 1rem;
